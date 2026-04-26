@@ -6,7 +6,7 @@
 const CONFIG = {
 
   // --- DATOS DEL EVENTO ---
-  nombreFestejado: "Roma",
+  nombreFestejado: "Rita",
   subtitulo: "Te esperamos",
 
   // --- FECHA PARA EL CONTADOR (ISO 8601) ---

@@ -85,11 +85,11 @@
             </select>
             <input type="text" name="NOMBRE" placeholder="Nombre" required />
             <input type="text" name="APELLIDO" placeholder="Apellido" required />
-            <textarea 
-                name="MENSAJE" 
-                id="textarea-mensaje" 
-                placeholder="Dejale un mensaje">
-            </textarea>
+           <textarea 
+    name="MENSAJE" 
+    id="textarea-mensaje" 
+    placeholder="Dejale un mensaje a Rita">
+</textarea>
             <button type="submit" class="boton">ENVIAR</button>
         </form>
     </div>
@@ -137,13 +137,7 @@
 
         document.addEventListener("DOMContentLoaded", function () {
 
-            // Aplicar colores desde CONFIG
-            const r = document.documentElement;
-            r.style.setProperty('--color-0', CONFIG.colores.color0);
-            r.style.setProperty('--color-1', CONFIG.colores.color1);
-            r.style.setProperty('--color-2', CONFIG.colores.color2);
-            r.style.setProperty('--color-3', CONFIG.colores.color3);
-
+    
             // Título de pestaña
             document.title = CONFIG.tituloTab;
 
